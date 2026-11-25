@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+.venv/
+
+# Runtime data: uploaded PDFs, Q&A history, Ollama output (may contain private documents)
+logs/pdfs/*
+!logs/pdfs/.gitkeep
+logs/*.csv
+logs/*.log
+
+# Downloaded AI models (several GB)
+models/*
+!models/README.md
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reports written by Test_PDF.bat (contain text of your PDFs)
+test_output/
